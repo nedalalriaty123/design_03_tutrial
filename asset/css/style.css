@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #00c8c8;
+    --secandColor: #998e92;
+    --thiredColor: #333;
+}
+
+.text-secondary {
+    color: var(--secandColor) !important;
+}
+.text-primary{
+    color: var(--mainColor) !important;
+    
+}
+.bg-dark{
+    background-color: var(--thiredColor) !important ;
+}
+.text-dark{
+    color: var(--thiredColor) !important;
+}
+.bg-primary{
+    background-color: var(--mainColor) !important;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ////////////////////main//////////////////// */
+
+main {
+    background-color: #f8f8f8;
+}
+
+section.hero{
+    height: 79vh;
+    background: url(../img/main/bg01-main.png) no-repeat 60%,url(../img/main/bg-main.png) no-repeat  33%;
+    background-size: 80%,contain;
+}
+main header .head01 {
+    background-color: var(--thiredColor);
+}
+
+main header .head01 .container {
+    width: 70% !important;
+}
+
+main header .head01 .container .fs-6 {
+    font-size: 13px !important;
+}
+main .head02{
+    padding: 15px 0 !important;
+}
+main header .head02 .container #navbarScroll form .form-control {
+    border-radius: 0 !important;
+}
+
+main header .head02 .container #navbarScroll .dropdown-toggle::after{
+    vertical-align: -1em !important;
+    right: 50px;
+    position: relative;
+}
+main header .head02 .container #navbarScroll .dropdown-menu{
+    border: none !important;
+    box-shadow:  0px 1px 9px #949393
+}
+.drop{
+    width: 467px;
+    min-height: 527px;
+    background-color: #f8f8f8;
+}
+.drop .BG .Box{
+    width: 380px;
+    height: 200px;
+    background-color: var(--thiredColor);
+}
+
+main header .head02 .container #navbarScroll .text-uppercase{
+    font-size: 10px;
+}
+
+main header .head01 .container .row .form-select {
+    padding: 0 !important;
+    width: fit-content !important;
+    background-color: transparent !important;
+    border : none !important;
+    border-radius: 0 !important;
+}
+main  section.hero .position-absolute{
+    bottom: 13% !important;
+    right: 15% !important;
+}
+
+
+
+/* ////////////////////popular//////////////////// */
+
+section#popular div.container ul#myTab{
+    border: none !important;
+}
+section#popular div.container .nav-tabs .nav-link.active{
+    border: none !important;
+    color: var(--mainColor) !important;
+    font-weight: bold;
+}
+section#popular div.container .nav-tabs .nav-link{
+    color: var(--thiredColor) !important;
+}
+
+section#popular div.container div.Box div.more div.icon i:hover{
+    background-color: var(--mainColor) !important;
+}
+
+section#popular div.container div.Box div.more{
+    display: none;
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+section#popular div.container div.Box:hover div.more{
+    display: inline-block;
+}
+
+
+/* ///////////////////////third////////////////////////////////////////// */
+
+section.third div.container-fluid div.row div.Box{
+    background-color: #f8f8f8 !important;
+    /* width: 32%; */
+}
+section.third div.container-fluid div.row div.Box div.Box_img{
+    min-height: 250px !important;
+}
+/* section.third div.container-fluid div.row div.Box div.Box_text{
+    min-width: 100px !important;
+} */
+section.third div.container-fluid div.row div.Box div.Box_text h1{
+    font-size: 1.5rem !important;
+}
+section.third div.container-fluid div.row div.Box div.Box_text h3{
+    font-size: 1.5rem !important;
+}
+section.third div.container-fluid div.row div.Box div.Box_text p{
+    font-size: 0.8rem !important;
+}
+section.third div.container-fluid div.row div.Box div.Box_img img{
+    /* width: fit-content !important; */
+    height: 300px !important;
+    /* background-color: #c5c800 !important; */
+}
+.btn-outline-info{
+    border-color: var(--thiredColor) !important;
+}
+.btn-outline-info:hover{
+    border-color: transparent !important;
+    color: white !important;
+}
+
+/* ///////////////////////footer////////////////////////////////////////// */
+
+section.mt-3{
+    background-color: #f8f8f8;
+}
+section div.container{
+    width: 85%;
+}
+section div.container div.Table #Table .list-group-item{
+    padding: 0.3rem 0.4rem !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--secandColor);
+}
+
+.box02 li {
+    list-style: none !important;
+    margin: 10px;
+    
+}
+.box02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 200px;
+}
+.box01{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 49%;
+    height: 200px;
+    color: white;
+    background-color: var(--thiredColor) !important;
+}
+.box02 ul {
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(50%);
+    color: white;
+
+}
